@@ -1,0 +1,15 @@
+server:
+  port: 1996 
+        
+spring: 
+  application:
+    name: loan-api-demo
+  datasource:
+    url: jdbc:mysql://localhost:3306/loandb
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect        
